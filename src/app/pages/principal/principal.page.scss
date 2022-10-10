@@ -1,0 +1,19 @@
+.btnJoke[shape=circle] {
+    --border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    color: white;
+    --background: #f87d09;
+    flex-flow: column wrap;
+}
+.textoJoke {
+    font-size: 30px;
+    font-weight: 600;
+}
+ion-row {
+    display: flex;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+</ion-content> -->
+
+<ion-content class="negro">
+
+  <div>
+    <!-- <img src="assets/images/logo.png" class="logoLogin">
+    <img src="assets/images/login.jpg"> -->
+    <img src="assets/images/logo.png">
+  </div>
+
+  <ion-row class="ion-justify-content-center">
+    <ion-item class="ion-margin-top grisOscuro">
+      <ion-label position="floating">Correo</ion-label>
+      <ion-input [(ngModel)]="lg_correo"></ion-input>
+    </ion-item>
+  </ion-row>
+  
+  <ion-row class="ion-justify-content-center">
+    <ion-item class="ion-margin-top grisOscuro">
+      <ion-label position="floating">Contraseña</ion-label>
+      <ion-input [(ngModel)]="lg_pwd" type="password"></ion-input>
+    </ion-item>
+  </ion-row>
+
+  <ion-row class="ion-justify-content-center ion-margin-top">
+    <ion-button (click)="ingresar()" class="btn-login" shape="round">
+      <ion-icon name="log-in-outline" slot="start"></ion-icon>
+      Ingresar
+    </ion-button>
+  </ion-row>
+
+  <ion-row class="ion-justify-content-center ion-margin-top">
+    <ion-button (click)="formRegistro()" fill="outline" shape="round" class="btn-registro">Registrarme</ion-button>
+  </ion-row>
+
+</ion-content>
+
